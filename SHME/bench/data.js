@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667353158085,
+  "lastUpdate": 1667356598998,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -48,6 +48,54 @@ window.BENCHMARK_DATA = {
             "value": 7567.917809119592,
             "unit": "ns",
             "range": "± 16.03383887876737"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "7cb9778321ea27ac7108ec6b5ed5268630ca8928",
+          "message": "Improve Aabb performance",
+          "timestamp": "2022-11-01T22:32:58-04:00",
+          "tree_id": "ab3372407b8aec27f00e245761b94199830a888d",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/7cb9778321ea27ac7108ec6b5ed5268630ca8928"
+        },
+        "date": 1667356594129,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 157.68900680541992,
+            "unit": "ns",
+            "range": "± 4.326685200220254"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 375.8995357312654,
+            "unit": "ns",
+            "range": "± 8.328923765566532"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 4282.835184733073,
+            "unit": "ns",
+            "range": "± 61.97918414803987"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 11029.382215227399,
+            "unit": "ns",
+            "range": "± 193.87760645334086"
           }
         ]
       }
