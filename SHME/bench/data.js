@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667509921005,
+  "lastUpdate": 1667511070277,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -144,6 +144,54 @@ window.BENCHMARK_DATA = {
             "value": 9457.745755103326,
             "unit": "ns",
             "range": "± 283.6034637864938"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c430163cbe3eadd6d1634a741a1168e5eb28cb18",
+          "message": "Use 'latest' tag for action-automatic-releases\n\nThe ability to target just a major version of a GitHub Action depends on its repository having a floating 'vX' tag that points to the newest commit of that major version, which this particular action doesn't.",
+          "timestamp": "2022-11-03T17:28:09-04:00",
+          "tree_id": "2bedbf482f2ae20092d0513653b808e036d0e0b7",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/c430163cbe3eadd6d1634a741a1168e5eb28cb18"
+        },
+        "date": 1667511063584,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 133.80221843719482,
+            "unit": "ns",
+            "range": "± 2.024323016846912"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 263.1933657328288,
+            "unit": "ns",
+            "range": "± 1.543990964059969"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3086.9681431696963,
+            "unit": "ns",
+            "range": "± 13.45782671628722"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 8089.702962239583,
+            "unit": "ns",
+            "range": "± 76.0135256119048"
           }
         ]
       }
