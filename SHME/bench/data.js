@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675318239581,
+  "lastUpdate": 1675389046785,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -288,6 +288,54 @@ window.BENCHMARK_DATA = {
             "value": 1546.2122472127278,
             "unit": "ns",
             "range": "± 9.48609783607219"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "b2c87c9dfeb57a44822411c41455b98358c676df",
+          "message": "Allow rendering overlay to framebuffer\n\nAdditionally removes the \"sync to game\" option for being too janky and disappointing. Framebuffer rendering is inherently synced, but only available in Octoshock. Not having memory events yet, Nymashock only offers the jiggly GUI-based version for the time being.",
+          "timestamp": "2023-02-02T18:56:09-05:00",
+          "tree_id": "f9dbd1d191a8dc16c1efb3f35fac15cd8b5b2ec6",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/b2c87c9dfeb57a44822411c41455b98358c676df"
+        },
+        "date": 1675389040986,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 148.857070659769,
+            "unit": "ns",
+            "range": "± 4.500057175850106"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 337.61534690856934,
+            "unit": "ns",
+            "range": "± 4.922662987296001"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 4304.23095703125,
+            "unit": "ns",
+            "range": "± 98.63070961186227"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 2000.6704875401088,
+            "unit": "ns",
+            "range": "± 27.80872019114147"
           }
         ]
       }
