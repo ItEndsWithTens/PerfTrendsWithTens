@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675401839921,
+  "lastUpdate": 1676436664763,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -384,6 +384,54 @@ window.BENCHMARK_DATA = {
             "value": 1549.9666086832683,
             "unit": "ns",
             "range": "± 5.431425184527293"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "6af88af250d7f512a4e8f9cf6585547249f8ba80",
+          "message": "Fix area map pixel decoding",
+          "timestamp": "2023-02-14T23:31:19-05:00",
+          "tree_id": "67b0ffda82961feeedc45587aafe7667dab81cbb",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/6af88af250d7f512a4e8f9cf6585547249f8ba80"
+        },
+        "date": 1676436544176,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 143.82172255288987,
+            "unit": "ns",
+            "range": "± 3.553308749811005"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 340.7181297029768,
+            "unit": "ns",
+            "range": "± 3.438504090813581"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 4347.146333966936,
+            "unit": "ns",
+            "range": "± 44.718683306893624"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1993.1327547345843,
+            "unit": "ns",
+            "range": "± 24.810806755313166"
           }
         ]
       }
