@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676436664763,
+  "lastUpdate": 1681539843081,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -432,6 +432,54 @@ window.BENCHMARK_DATA = {
             "value": 1993.1327547345843,
             "unit": "ns",
             "range": "± 24.810806755313166"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "cb4d4a23e3e43808a9ef6f7757487a450a7a119e",
+          "message": "Check BizHawk version on load\n\nWith breaking changes to interface method signatures like ReadByteRange, cross-version compatibility is never guaranteed long term, so check and warn users about potential problems, but still let them forge ahead if they insist.",
+          "timestamp": "2023-04-15T02:15:50-04:00",
+          "tree_id": "6837c584f06c44a0df0a580546e07331f736a0ac",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/cb4d4a23e3e43808a9ef6f7757487a450a7a119e"
+        },
+        "date": 1681539834586,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 134.25532749720983,
+            "unit": "ns",
+            "range": "± 1.132800909725228"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 261.6263771057129,
+            "unit": "ns",
+            "range": "± 0.4890046286076014"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3056.450424194336,
+            "unit": "ns",
+            "range": "± 18.526421804638872"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1547.4230357578822,
+            "unit": "ns",
+            "range": "± 3.237717301370817"
           }
         ]
       }
