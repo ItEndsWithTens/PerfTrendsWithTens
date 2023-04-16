@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681676000110,
+  "lastUpdate": 1681676563031,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -624,6 +624,54 @@ window.BENCHMARK_DATA = {
             "value": 1354.4045312064034,
             "unit": "ns",
             "range": "± 6.868156665977697"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "7496b6e60ed4db5779a29db0ab63fa1c0490d669",
+          "message": "Implement Disco Mode\n\nFar and away the most important feature in this project.",
+          "timestamp": "2023-04-16T15:36:21-04:00",
+          "tree_id": "b6156fc5fcaa9423d4d729564f864825735d4846",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/7496b6e60ed4db5779a29db0ab63fa1c0490d669"
+        },
+        "date": 1681676545019,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 152.04071521759033,
+            "unit": "ns",
+            "range": "± 1.4991656239052809"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 267.12445531572615,
+            "unit": "ns",
+            "range": "± 2.6083970044096976"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3340.0919233049667,
+            "unit": "ns",
+            "range": "± 28.706510163898162"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1585.6088638305664,
+            "unit": "ns",
+            "range": "± 24.95265277423076"
           }
         ]
       }
