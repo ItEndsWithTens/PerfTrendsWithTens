@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681539843081,
+  "lastUpdate": 1681613588273,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -480,6 +480,54 @@ window.BENCHMARK_DATA = {
             "value": 1547.4230357578822,
             "unit": "ns",
             "range": "± 3.237717301370817"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "27f5f4e02e0fd6c552f2105e5c3f1f4437aec42d",
+          "message": "Use netstandard2.0 for custom build task\n\nAlso run my custom build targets at the proper time; as per dotnet/msbuild#8099 they were configured to run a little too early in the build.",
+          "timestamp": "2023-04-15T22:49:00-04:00",
+          "tree_id": "5a93447c88f5b91e67009c6a35e62cd9655fd92a",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/27f5f4e02e0fd6c552f2105e5c3f1f4437aec42d"
+        },
+        "date": 1681613574937,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 129.47108915873937,
+            "unit": "ns",
+            "range": "± 0.4352418192441331"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 257.2387593133109,
+            "unit": "ns",
+            "range": "± 1.229160765955694"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2960.4930369059243,
+            "unit": "ns",
+            "range": "± 14.34436583607735"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1510.7627360026042,
+            "unit": "ns",
+            "range": "± 17.533137748457147"
           }
         ]
       }
