@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681677629828,
+  "lastUpdate": 1681678653841,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -720,6 +720,54 @@ window.BENCHMARK_DATA = {
             "value": 1494.0031596592494,
             "unit": "ns",
             "range": "± 6.273598122670421"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db497c5a3dcca4a60224e37cdf5e160d4d1404d6",
+          "message": "Don't mark dev builds prerelease\n\nFor whatever reason, prerelease builds can't be marked as the \"latest build\" on the Github releases page. To make sure the little green \"Latest\" badge/bubble is applied to the dev builds and help avoid user confusion, just set prerelease false and be done with it.",
+          "timestamp": "2023-04-16T16:53:04-04:00",
+          "tree_id": "abf6b4d45bf1f0a40c1353dc4c26d42e0ad1c817",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/db497c5a3dcca4a60224e37cdf5e160d4d1404d6"
+        },
+        "date": 1681678646499,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 133.43208948771158,
+            "unit": "ns",
+            "range": "± 2.2509336705847764"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 261.5695031483968,
+            "unit": "ns",
+            "range": "± 1.5336245840459597"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2977.404225667318,
+            "unit": "ns",
+            "range": "± 38.98615641636542"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1509.9172465006511,
+            "unit": "ns",
+            "range": "± 9.553849678490684"
           }
         ]
       }
