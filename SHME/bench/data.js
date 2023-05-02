@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682999775825,
+  "lastUpdate": 1683000842142,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -912,6 +912,54 @@ window.BENCHMARK_DATA = {
             "value": 1488.4912745157878,
             "unit": "ns",
             "range": "± 6.896074703881802"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "40188be333514d73609009fe47dda63e6e3022fa",
+          "message": "Update trigger array on \"Auto\" checkbox enable",
+          "timestamp": "2023-05-02T00:09:00-04:00",
+          "tree_id": "fe24ed4f5f2264dfc2720301fa8c0dd7195d29e2",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/40188be333514d73609009fe47dda63e6e3022fa"
+        },
+        "date": 1683000834780,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 130.10492324829102,
+            "unit": "ns",
+            "range": "± 0.42562427683278364"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 258.23894182840985,
+            "unit": "ns",
+            "range": "± 0.597468768475286"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3012.4767557779946,
+            "unit": "ns",
+            "range": "± 16.092443820293706"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1504.1631444295247,
+            "unit": "ns",
+            "range": "± 5.332534522318829"
           }
         ]
       }
