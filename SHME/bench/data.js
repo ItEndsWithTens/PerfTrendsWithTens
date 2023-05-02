@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682834631415,
+  "lastUpdate": 1682999775825,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -864,6 +864,54 @@ window.BENCHMARK_DATA = {
             "value": 1486.1219787597656,
             "unit": "ns",
             "range": "± 5.271379762216842"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "9175fbae23b0d4ea7afe66c5206f4a16d696ca08",
+          "message": "Only auto update triggers when a stage is loaded\n\nTurns out the engine does, in fact, have a value tracking whether a level is loaded, and my janky timer nonsense can finally be tossed out the window.",
+          "timestamp": "2023-05-01T23:49:29-04:00",
+          "tree_id": "327f3512218c7e654e04f9c99583f6078bec19e9",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/9175fbae23b0d4ea7afe66c5206f4a16d696ca08"
+        },
+        "date": 1682999766998,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 133.0381283393273,
+            "unit": "ns",
+            "range": "± 0.4280236800740712"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 256.52805010477704,
+            "unit": "ns",
+            "range": "± 1.313773277310232"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2918.702824910482,
+            "unit": "ns",
+            "range": "± 5.664872681073808"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1488.4912745157878,
+            "unit": "ns",
+            "range": "± 6.896074703881802"
           }
         ]
       }
