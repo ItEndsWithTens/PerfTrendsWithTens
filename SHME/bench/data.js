@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683345514859,
+  "lastUpdate": 1683526825174,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1008,6 +1008,54 @@ window.BENCHMARK_DATA = {
             "value": 1597.5998011502352,
             "unit": "ns",
             "range": "± 36.02464800943838"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "740e662cc4aa433f7abf2acfa9d5156019453c4a",
+          "message": "Add raycast selection\n\nDepth sorting is still an issue, but the click-and-hold cycling should alleviate that in the short term.",
+          "timestamp": "2023-05-08T02:10:26-04:00",
+          "tree_id": "5d3e657511395173b5356d888653fcce9c5c7deb",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/740e662cc4aa433f7abf2acfa9d5156019453c4a"
+        },
+        "date": 1683526813267,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 148.05048624674478,
+            "unit": "ns",
+            "range": "± 1.446955119975129"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 308.4561421320989,
+            "unit": "ns",
+            "range": "± 3.14244257417691"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3849.9778747558594,
+            "unit": "ns",
+            "range": "± 44.222231632109505"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1757.2079213460286,
+            "unit": "ns",
+            "range": "± 21.778823902091297"
           }
         ]
       }
