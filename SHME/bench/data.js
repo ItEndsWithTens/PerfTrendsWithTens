@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683526825174,
+  "lastUpdate": 1683797980220,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1056,6 +1056,54 @@ window.BENCHMARK_DATA = {
             "value": 1757.2079213460286,
             "unit": "ns",
             "range": "± 21.778823902091297"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "afa80b8e91d13c9a2828bd40932a75c5012a3a71",
+          "message": "Allow locking camera to Harry's head",
+          "timestamp": "2023-05-11T05:35:04-04:00",
+          "tree_id": "983c7b8d2ad4f6725cb2ce4ee4b2cccda955e369",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/afa80b8e91d13c9a2828bd40932a75c5012a3a71"
+        },
+        "date": 1683797971762,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 127.96132723490398,
+            "unit": "ns",
+            "range": "± 0.5459881215813571"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 255.69880485534668,
+            "unit": "ns",
+            "range": "± 1.2394154047088475"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2911.9334629603795,
+            "unit": "ns",
+            "range": "± 6.9203139037936285"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1475.9430612836566,
+            "unit": "ns",
+            "range": "± 3.2389350029495985"
           }
         ]
       }
