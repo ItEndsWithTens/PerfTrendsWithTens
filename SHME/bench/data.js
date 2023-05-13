@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683942599482,
+  "lastUpdate": 1683945415775,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1152,6 +1152,54 @@ window.BENCHMARK_DATA = {
             "value": 1476.239382425944,
             "unit": "ns",
             "range": "± 4.258575827284145"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "ff1ca9e51967298e3ba5fa430947297c029b4f76",
+          "message": "Clarify use of some Utility tab features",
+          "timestamp": "2023-05-12T22:33:00-04:00",
+          "tree_id": "8d79c7b36da7e849e0d4695da356ed48eb47aeef",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/ff1ca9e51967298e3ba5fa430947297c029b4f76"
+        },
+        "date": 1683945408717,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 129.4634067095243,
+            "unit": "ns",
+            "range": "± 1.2314550598198668"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 269.2179203033447,
+            "unit": "ns",
+            "range": "± 2.419453195602783"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2930.4730824061803,
+            "unit": "ns",
+            "range": "± 12.75710527973944"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1504.3043954031807,
+            "unit": "ns",
+            "range": "± 13.040390721654093"
           }
         ]
       }
