@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683797980220,
+  "lastUpdate": 1683942599482,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1104,6 +1104,54 @@ window.BENCHMARK_DATA = {
             "value": 1475.9430612836566,
             "unit": "ns",
             "range": "± 3.2389350029495985"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "573817a6402151f66c76397115d638852e15c0ab",
+          "message": "Add number conversion convenience features\n\nI'm getting tired of doing this stuff by hand every time I'm poking around the game's memory looking for new stuff.",
+          "timestamp": "2023-05-12T21:46:01-04:00",
+          "tree_id": "c6942cc1830745cfd32b217537752254c795c4ff",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/573817a6402151f66c76397115d638852e15c0ab"
+        },
+        "date": 1683942585537,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 128.38774045308432,
+            "unit": "ns",
+            "range": "± 0.6155351398984271"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 256.50793075561523,
+            "unit": "ns",
+            "range": "± 0.7464420558923293"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2900.2049509684243,
+            "unit": "ns",
+            "range": "± 5.553260502819628"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1476.239382425944,
+            "unit": "ns",
+            "range": "± 4.258575827284145"
           }
         ]
       }
