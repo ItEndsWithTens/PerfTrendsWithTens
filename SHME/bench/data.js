@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683945415775,
+  "lastUpdate": 1684401979197,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1200,6 +1200,54 @@ window.BENCHMARK_DATA = {
             "value": 1504.3043954031807,
             "unit": "ns",
             "range": "± 13.040390721654093"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "0b344c6df6f506e66e0446bc55ce067ea621ce0a",
+          "message": "Improve CameraPath coloring\n\nScheme courtesy of https://paletton.com/#uid=30U0u0kw0w0jvDaoOy4y4oODajv",
+          "timestamp": "2023-05-18T05:12:32-04:00",
+          "tree_id": "8c923c7084353ff9c7fc4d66737f9a3a84d77b4c",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/0b344c6df6f506e66e0446bc55ce067ea621ce0a"
+        },
+        "date": 1684401965380,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 124.27589257558186,
+            "unit": "ns",
+            "range": "± 0.46607519014487486"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 293.62375259399414,
+            "unit": "ns",
+            "range": "± 0.2011870791538858"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3151.254679361979,
+            "unit": "ns",
+            "range": "± 16.69193745577177"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1937.9725592476982,
+            "unit": "ns",
+            "range": "± 2.4595338743681068"
           }
         ]
       }
