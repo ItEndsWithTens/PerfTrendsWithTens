@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684704829934,
+  "lastUpdate": 1684892845644,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1302,6 +1302,60 @@ window.BENCHMARK_DATA = {
             "value": 1571.7542902628581,
             "unit": "ns",
             "range": "± 5.400032082607354"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "8e8a356849d09089eade27b2fbd8e8a36bdcfbb2",
+          "message": "Remove some foreach loops in the render hot path\n\nI also threw in that theoretically faster custom HasFlag method, for good measure.",
+          "timestamp": "2023-05-23T21:36:18-04:00",
+          "tree_id": "e603311340cfc40c4d9559c0a11f4308f6ecf09a",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/8e8a356849d09089eade27b2fbd8e8a36bdcfbb2"
+        },
+        "date": 1684892817458,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 128.34368546803793,
+            "unit": "ns",
+            "range": "± 1.6487521368696325"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 298.249553044637,
+            "unit": "ns",
+            "range": "± 3.154294951945302"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3654.4634410313197,
+            "unit": "ns",
+            "range": "± 9.448678177073145"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 15521.324375697544,
+            "unit": "ns",
+            "range": "± 86.50909634444133"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1523.407336643764,
+            "unit": "ns",
+            "range": "± 5.010807976135736"
           }
         ]
       }
