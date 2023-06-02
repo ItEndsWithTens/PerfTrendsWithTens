@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685252770379,
+  "lastUpdate": 1685725272116,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1410,6 +1410,60 @@ window.BENCHMARK_DATA = {
             "value": 1385.9331130981445,
             "unit": "ns",
             "range": "± 1.7924095682131418"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "691f36fca343fd881c05331fe5ec6c991c54cdf5",
+          "message": "Replace automatic release action\n\nThe deprecation of set-output has been postponed, but not that of Node 12. This seems to be a nice drop-in replacement for the original action, whose developer is MIA. I do hope they're doing well, but the show must go on.",
+          "timestamp": "2023-06-02T12:55:13-04:00",
+          "tree_id": "ed3155e0801e720663205dd32e728000fbbae395",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/691f36fca343fd881c05331fe5ec6c991c54cdf5"
+        },
+        "date": 1685725264004,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 117.15305703026908,
+            "unit": "ns",
+            "range": "± 0.7463192211469665"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 259.0656587055751,
+            "unit": "ns",
+            "range": "± 1.35197939031518"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3531.854724884033,
+            "unit": "ns",
+            "range": "± 3.377189833146419"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 15111.542765299479,
+            "unit": "ns",
+            "range": "± 63.328499583857536"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1522.1396764119465,
+            "unit": "ns",
+            "range": "± 4.033750033047862"
           }
         ]
       }
