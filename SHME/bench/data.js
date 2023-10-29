@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698255058406,
+  "lastUpdate": 1698597492827,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1518,6 +1518,60 @@ window.BENCHMARK_DATA = {
             "value": 1745.2855428059895,
             "unit": "ns",
             "range": "± 26.25891510843072"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "e463f5350d847653ae5c0bcb77a5cfa1a72a9478",
+          "message": "Speed up framebuffer accesses even more\n\nOkay so \"all in good time\" turned out to be like an hour, tops. Sometimes I surprise myself.",
+          "timestamp": "2023-10-29T12:27:02-04:00",
+          "tree_id": "d36c5a5f552666b36dde54166633efaab82e5623",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/e463f5350d847653ae5c0bcb77a5cfa1a72a9478"
+        },
+        "date": 1698597483593,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 127.89226198196411,
+            "unit": "ns",
+            "range": "± 9.298843251716164"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 269.9998728434245,
+            "unit": "ns",
+            "range": "± 1.0158976338344419"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3577.0416259765625,
+            "unit": "ns",
+            "range": "± 7.098704554088612"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 14834.784240722656,
+            "unit": "ns",
+            "range": "± 54.87754375467087"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1525.1013946533203,
+            "unit": "ns",
+            "range": "± 13.615899839228659"
           }
         ]
       }
