@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698597492827,
+  "lastUpdate": 1698821391120,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1572,6 +1572,60 @@ window.BENCHMARK_DATA = {
             "value": 1525.1013946533203,
             "unit": "ns",
             "range": "± 13.615899839228659"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "d497a18be8704512a6c9cc3f5b23ea50182e4b46",
+          "message": "Improve number display further\n\nReal localization is a bridge too far for now, but getting the numeric separators right is pretty straightforward. It still instinctively feels like ListSeparator is what you'd want for vectors, but System.Numerics uses NumberGroupSeparator internally in its ToString methods. When in Rome...",
+          "timestamp": "2023-11-01T02:42:23-04:00",
+          "tree_id": "a4aee27841a3d75350042d51fe85afe5ffdd247b",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/d497a18be8704512a6c9cc3f5b23ea50182e4b46"
+        },
+        "date": 1698821380289,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 116.54849403044757,
+            "unit": "ns",
+            "range": "± 2.3247969238829547"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 319.0758943557739,
+            "unit": "ns",
+            "range": "± 4.358170694579584"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 4257.235768636067,
+            "unit": "ns",
+            "range": "± 39.98752494017203"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 19525.115748814173,
+            "unit": "ns",
+            "range": "± 228.30598260176018"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1876.2518337794713,
+            "unit": "ns",
+            "range": "± 20.169800368142365"
           }
         ]
       }
