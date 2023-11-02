@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698922009638,
+  "lastUpdate": 1698922559023,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1680,6 +1680,60 @@ window.BENCHMARK_DATA = {
             "value": 1403.9380264282227,
             "unit": "ns",
             "range": "± 3.5393595687861192"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "c2e2c1af57f3c494b9d1db00e9dc3d5680e6d6a6",
+          "message": "Remove custom Linux launch script\n\nVS Code launch configurations are a nightmare, but I finally found a way to make this work with the stock BizHawk distribution. The technique won't work with --mono-no-redirect, but we'll cross that bridge when we come to it.",
+          "timestamp": "2023-11-02T06:51:55-04:00",
+          "tree_id": "fdbd2e2fdaf8b6e74f2262e4102aa89280f4ff4f",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/c2e2c1af57f3c494b9d1db00e9dc3d5680e6d6a6"
+        },
+        "date": 1698922542714,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 147.83881187438965,
+            "unit": "ns",
+            "range": "± 1.896419943697554"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 325.3218276160104,
+            "unit": "ns",
+            "range": "± 5.217210338148287"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 4548.389638264974,
+            "unit": "ns",
+            "range": "± 60.72065095136966"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 18789.795139857702,
+            "unit": "ns",
+            "range": "± 261.591961123535"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1933.0572001139324,
+            "unit": "ns",
+            "range": "± 35.9524335105643"
           }
         ]
       }
