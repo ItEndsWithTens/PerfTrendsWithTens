@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708502888523,
+  "lastUpdate": 1708507976866,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -1842,6 +1842,60 @@ window.BENCHMARK_DATA = {
             "value": 1387.8224436442058,
             "unit": "ns",
             "range": "± 2.35074659711784"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbee9a548383d01059cf1162b650861001686949",
+          "message": "Merge pull request #7 from ItEndsWithTens/feature_update_outdated_actions\n\nUpdate outdated Github Actions\r\n\r\n[skip benchmarks]",
+          "timestamp": "2024-02-21T04:28:02-05:00",
+          "tree_id": "d9505d36675db452cf508dd22c5c313361552217",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/bbee9a548383d01059cf1162b650861001686949"
+        },
+        "date": 1708507970167,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 88.5620007912318,
+            "unit": "ns",
+            "range": "± 0.11244813574049574"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 220.45475165049234,
+            "unit": "ns",
+            "range": "± 0.35759533868919663"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2644.647216796875,
+            "unit": "ns",
+            "range": "± 3.367346805170858"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 12300.632912772042,
+            "unit": "ns",
+            "range": "± 30.2464182684976"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1410.9117780412946,
+            "unit": "ns",
+            "range": "± 20.679869226526936"
           }
         ]
       }
