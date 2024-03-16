@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710457432436,
+  "lastUpdate": 1710579985814,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -2112,6 +2112,60 @@ window.BENCHMARK_DATA = {
             "value": 1393.4305572509766,
             "unit": "ns",
             "range": "± 3.8932571639796003"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "b84c1bf773ae44407eba16d18f7eab3e32d06ed6",
+          "message": "Let FPS controls survive more events\n\nNot all cutscenes are amenable to this approach, but it kinda sorta works some of the time. I need to understand the game's camera code better before I can improve this further.",
+          "timestamp": "2024-03-16T04:55:33-04:00",
+          "tree_id": "395e51dcb0c18be7880ceddc8ef0fab7a3caa2b7",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/b84c1bf773ae44407eba16d18f7eab3e32d06ed6"
+        },
+        "date": 1710579979702,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 79.857071240743,
+            "unit": "ns",
+            "range": "± 0.1906782869780397"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 218.6681662287031,
+            "unit": "ns",
+            "range": "± 0.30462331158744915"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3082.7814737955728,
+            "unit": "ns",
+            "range": "± 20.912175170160417"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 12229.369812011719,
+            "unit": "ns",
+            "range": "± 11.174855851002116"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1385.9153874715169,
+            "unit": "ns",
+            "range": "± 1.3633550283727158"
           }
         ]
       }
