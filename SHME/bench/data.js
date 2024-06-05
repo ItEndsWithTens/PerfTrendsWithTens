@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711094241237,
+  "lastUpdate": 1717631448884,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -2220,6 +2220,60 @@ window.BENCHMARK_DATA = {
             "value": 1403.7017822265625,
             "unit": "ns",
             "range": "± 1.4744162920876387"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "315d4a3951f539eef465e26e2ee2c011161213c8",
+          "message": "Remove render mode presets\n\nFiddling with the backface culling and far clipping checkboxes when changing render mode is incompatible with storing all of those in the config file, as the mode stomps on the checkboxes when loading settings. Having those checkboxes changed out from under me is also proving to be quite annoying.",
+          "timestamp": "2024-06-05T19:39:10-04:00",
+          "tree_id": "a28a5355790c1577c32889fc7c6dc2ee4fe0f5ed",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/315d4a3951f539eef465e26e2ee2c011161213c8"
+        },
+        "date": 1717631433042,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 92.94551293055217,
+            "unit": "ns",
+            "range": "± 1.5398418502600268"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 243.0494817097982,
+            "unit": "ns",
+            "range": "± 4.582191289605015"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 3405.2621841430664,
+            "unit": "ns",
+            "range": "± 46.03783645357329"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 13255.409851074219,
+            "unit": "ns",
+            "range": "± 239.375715811946"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1454.691670735677,
+            "unit": "ns",
+            "range": "± 10.444234229077463"
           }
         ]
       }
