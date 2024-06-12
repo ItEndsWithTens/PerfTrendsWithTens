@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717631448884,
+  "lastUpdate": 1718211735265,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -2274,6 +2274,60 @@ window.BENCHMARK_DATA = {
             "value": 1454.691670735677,
             "unit": "ns",
             "range": "± 10.444234229077463"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "3c6e1f90472a8bb12f28c12d3b40599de99bb019",
+          "message": "Move reticle drawing near other draw methods\n\nTrying to actually refactor it turns into an unwieldy (and non-performant) mess, but reorganizing it at least is helpful to keep my thoughts straight.",
+          "timestamp": "2024-06-12T12:35:24-04:00",
+          "tree_id": "1e634977926883ae1910ecf7b3061f65dc7bb924",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/3c6e1f90472a8bb12f28c12d3b40599de99bb019"
+        },
+        "date": 1718211698672,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 81.14868243535359,
+            "unit": "ns",
+            "range": "± 0.6334238931484898"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 178.65846951802573,
+            "unit": "ns",
+            "range": "± 0.9697976912255641"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2063.090133666992,
+            "unit": "ns",
+            "range": "± 5.947898921612898"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 6718.00297328404,
+            "unit": "ns",
+            "range": "± 48.81083025450071"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1424.1036224365234,
+            "unit": "ns",
+            "range": "± 9.578504397455749"
           }
         ]
       }
