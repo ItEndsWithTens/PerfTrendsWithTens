@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718388518572,
+  "lastUpdate": 1720069783916,
   "repoUrl": "https://github.com/ItEndsWithTens/SilentHillMapExaminer",
   "entries": {
     "SHME BenchmarkDotNet results": [
@@ -2436,6 +2436,60 @@ window.BENCHMARK_DATA = {
             "value": 1212.669631413051,
             "unit": "ns",
             "range": "± 1.2259694254623474"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "committer": {
+            "email": "robert.martens@gmail.com",
+            "name": "Rob Martens",
+            "username": "ItEndsWithTens"
+          },
+          "distinct": true,
+          "id": "41089d10a131e851bb2fb550e19cf7a99b0aa444",
+          "message": "Fix loading tool in Linux/Mono",
+          "timestamp": "2024-07-04T00:25:04-04:00",
+          "tree_id": "ba1f635c9a9869462d25b260611ce0025f829555",
+          "url": "https://github.com/ItEndsWithTens/SilentHillMapExaminer/commit/41089d10a131e851bb2fb550e19cf7a99b0aa444"
+        },
+        "date": 1720069765527,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "SHME.Benchmarks.Graphics.AabbBenchmarks.AddAabb",
+            "value": 79.80830584253583,
+            "unit": "ns",
+            "range": "± 0.12666976932871557"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.CannotSeeOffscreenRenderable",
+            "value": 225.2066739400228,
+            "unit": "ns",
+            "range": "± 0.1736773170735148"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipLineAgainstFrustum",
+            "value": 2025.7027943929036,
+            "unit": "ns",
+            "range": "± 3.124384686663899"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.ClipPolygonAgainstFrustum",
+            "value": 5991.852671305339,
+            "unit": "ns",
+            "range": "± 17.917555277131637"
+          },
+          {
+            "name": "SHME.Benchmarks.Graphics.CameraBenchmarks.SetAngles",
+            "value": 1211.9197336832683,
+            "unit": "ns",
+            "range": "± 0.7390590058784136"
           }
         ]
       }
